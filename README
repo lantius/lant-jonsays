@@ -1,0 +1,32 @@
+TO INSTALL
+
+If you would like to record the impressions to MySQL, first run the 
+query in createDB.sql, then modify conn.php to match your db info.
+If you do not plan to record to MySQL, these will be ignored.
+
+Modify the info in the first 16 or so lines of showimg.php to match 
+your image and preferences. The script should take any number of lines 
+provided in the query string, and you can also provide a defualt value.
+
+FILE LIST
+
+base.png
+Image used to add words to.
+
+close.php
+Closes MySQL connection on inclusion.
+
+conn.php
+Opens MySQL connection on inclusion.
+
+createDB.sql
+Used to create MySQL db to record lines
+
+FreeSans.ttf
+Font used for sign.
+
+README
+You are here
+
+showimg.php
+Creates image based on query string

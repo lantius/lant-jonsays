@@ -7,7 +7,7 @@
 $imageName = "base.png";
 
 # Information for text placement (and other stuff)
-$textPlacement = array ("horizontalCenter" => 450, "verticalCenter" => 162, "maxWidth" => 170, "fontAngle" => 5.4, "fontFace" => 'arial.ttf', "fontSize" => 20, "fontColor" => array(0x00, 0x00, 0x00));
+$textPlacement = array ("horizontalCenter" => 450, "verticalCenter" => 162, "maxWidth" => 170, "fontAngle" => 5.4, "fontFace" => 'FreeSans.ttf', "fontSize" => 20, "fontColor" => array(0x00, 0x00, 0x00));
 
 # Lines to use if called with no Query String
 $defaultLines = array("SERIOUS","BUSINESS");
